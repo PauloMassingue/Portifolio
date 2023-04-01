@@ -165,11 +165,56 @@ nav ul li a:hover {
 #projectos {
     height: 100%;
     width: 100%;
-    background-color: #fab;
+    background-color:#101010;
+    padding:100px 0px;
 }
-.Title{
-    display: flex;   
+.Title h2{
+color:#ffff;
+font-size:75px;
+width:1130px;
+margin:30px auto;
 }
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+
+}
+.card{
+    background-color: #191919;
+    height: 365px;
+    width: 335px;
+    border:20px;
+    border-radius:20px;
+    margin:15px;
+    position:relative;
+    overflow:hidden;
+    text-align: center;
+
+}
+.card h5{
+    color:#fff;
+    font-size:23px;
+    margin-bottom: 15px;
+
+}
+.card p{
+    color:#fcfc;
+    font-size:16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card a{
+    text-decoration: none;
+    color:red;
+    border: 1px solid #ab07f7;
+    border-radius: 10px;
+    padding:10px;
+}
+
+
 /*
 
 *   Configuracoes da seccao contactos
